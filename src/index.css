@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Light mode */
+textarea::placeholder {
+  color: gray;
+}
+
+/* Dark mode */
+textarea.dark-mode::placeholder {
+  color: white;
+}
+
